@@ -67,7 +67,7 @@ df_raw.rename(columns = {'Others\nDiscrepancies ':'category'}, inplace = True)
 df_raw.replace('ySL','YSL', inplace = True)
 ```
 ```ruby
-#Checking the missing values
+# Checking the missing values
 
 df_raw.isna().sum()
 ```
@@ -80,9 +80,9 @@ df_raw['category'].unique()
 # Creating the final dataframe that we will be using for the analysis
 
 df = df_raw.copy()
-#working only with 'DAMAGED' claims
+# working only with 'DAMAGED' claims
 df = df.loc[df['category'] == 'DAMAGED']
-#working only with 'Complaint date' from 2020
+# working only with 'Complaint date' from 2020
 df = df[df['Complaint Date'].dt.year == 2020]
 df.reset_index(inplace = True, drop = True)
 df['SKU family'] = df['SKU#'].apply(lambda x: x[:-2])
