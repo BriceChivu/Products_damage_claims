@@ -123,4 +123,4 @@ One can easily note that 1 orderline (80202555) contributes for a huge percentag
 
 #### a. ii. Claims value without 80202555
 
-<img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/Tableau%20damage%20claims%20without%20huge%20orderline.png" alt="alt text" width="995" height="528">
+<img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/Damage%20claims%20without%20orderline%20Tableau.png" alt="alt text" width="995" height="528">
