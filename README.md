@@ -78,6 +78,8 @@ df_raw.isna().sum()
 
 df_raw['category'].unique()
 ```
+<img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/df_raw['category'].unique().png" alt="alt text" width="455" height="34">
+
 ```ruby
 # Creating the final dataframe that we will be using for the analysis
 
