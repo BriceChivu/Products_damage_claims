@@ -60,9 +60,42 @@ new_headers = df_raw.iloc[3]
 df_raw = df_raw.iloc[4:]
 df_raw.columns = new_headers
 df_raw.columns.name = None
-df_raw.dropna(thresh=5,inplace=True)
-df_raw['Complaint Date'] = pd.to_datetime(df_raw['Complaint Date'], format='%Y/%m/%d')
-df_raw.dropna(thresh=5, axis=1, inplace=True)
-df_raw.rename(columns={'Others\nDiscrepancies ':'category'},inplace=True)
-df_raw.replace('ySL','YSL',inplace=True)
+df_raw.dropna(thresh = 5, inplace = True)
+df_raw['Complaint Date'] = pd.to_datetime(df_raw['Complaint Date'], format = '%Y/%m/%d')
+df_raw.dropna(thresh = 5, axis = 1, inplace = True)
+df_raw.rename(columns = {'Others\nDiscrepancies ':'category'}, inplace = True)
+df_raw.replace('ySL','YSL', inplace = True)
+```
+```ruby
+#Checking the missing values
+
+df_raw.isna().sum()
+```
+```ruby
+# Checking the values of 'category'
+
+df_raw['category'].unique()
+```
+```ruby
+# Creating the final dataframe that we will be using for the analysis
+
+df = df_raw.copy()
+#working only with 'DAMAGED' claims
+df = df.loc[df['category'] == 'DAMAGED']
+#working only with 'Complaint date' from 2020
+df = df[df['Complaint Date'].dt.year == 2020]
+df.reset_index(inplace = True, drop = True)
+df['SKU family'] = df['SKU#'].apply(lambda x: x[:-2])
+df['Total Amount'] = round(df['Total Amount'].astype(float), 1)
+df.rename(columns = {df.columns[8]:'Shipment'}, inplace = True)
+df['Total Amount SGD'] = df['Total Amount']
+df.loc[df['Currency'] == 'THD','Total Amount SGD'] = df['Total Amount'].apply(lambda x: x*0.044)
+df.loc[df['Currency'] == 'JPY','Total Amount SGD'] = df['Total Amount'].apply(lambda x: x*0.013)
+df.loc[df['Currency'] == 'HKD','Total Amount SGD'] = df['Total Amount'].apply(lambda x: x*0.18)
+df.loc[df['Currency'] == 'USD','Total Amount SGD'] = df['Total Amount'].apply(lambda x: x*1.37)
+df = df.merge(df_merch_type, on = 'SKU family', how = 'left')
+df.drop_duplicates(subset = ['Complaint Date','Loreal CS','Shipment #','DO #','SKU#','Claim Qty '],\
+                   keep = 'first', inplace = True)
+df = df.merge(df_sku_master[['SKU family','DESCRIPTION']].\
+              drop_duplicates(subset = ['SKU family'], keep = 'first'), on = 'SKU family', how = 'left')
 ```
