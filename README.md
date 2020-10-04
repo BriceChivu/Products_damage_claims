@@ -103,7 +103,7 @@ df.drop_duplicates(subset = ['Complaint Date','Loreal CS','Shipment #','DO #','S
 df = df.merge(df_sku_master[['SKU family','DESCRIPTION']].\
               drop_duplicates(subset = ['SKU family'], keep = 'first'), on = 'SKU family', how = 'left')
 ```
-```ruby
-df.head()
-```
-<img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/df_raw['category'].unique().png" alt="alt text" width="455" height="34">
+Now that we have cleaned the data, let's see what graphs we can plot. If you have Tableau installed on your device, I suggest you download my Tableau file in my repository, you would be able to play around with the dashboard.
+
+
+
