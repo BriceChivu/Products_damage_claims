@@ -46,4 +46,4 @@ df_merch_type.drop_duplicates(subset = 'SKU family', keep = 'first', inplace = T
 
 df_merch_type['CODE_DESC'].unique()
 ```
-<img src="https://github.com/BriceChivu/Products_damaged_claims/blob/master/df_merch_type.png" alt="alt text" width="902" height="113">
+<img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/df_merch_type.png" alt="alt text" width="902" height="113">
