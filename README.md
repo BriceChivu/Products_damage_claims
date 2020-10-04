@@ -9,7 +9,7 @@ Our goal here is double: we want to better understand claims linked to damaged p
 First, we will pull the data, clean it, and rearrange it. Afterwards, we will look to plot some graphs using Tableau.
 
 ### 3. Data cleaning
-Let's first pull the data.
+Let's first pull the data and clean it.
 ```ruby
 # Importing the usual stuff
 
