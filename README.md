@@ -131,4 +131,4 @@ To complete the full picture, we need to add the **number of claims** into the a
 
 #### b. Number of claims
 
-<img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/Damage%20claims%20without%20orderline%20Tableau.png" alt="alt text" width="995" height="528">
+<img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/Number%20of%20claims%20Tableau.png" width="995" height="528">
