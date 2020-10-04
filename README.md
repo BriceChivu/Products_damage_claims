@@ -106,5 +106,7 @@ df = df.merge(df_sku_master[['SKU family','DESCRIPTION']].\
 ### 4. Analysis
 Now that we have cleaned the data, let's see what graphs we can plot. If you have Tableau installed on your device, I suggest you download the Tableau file in my repository, you would be able to play around with the dashboards.
 
-Otherwise, we can take a look at the summary dashboard below.
+Otherwise, we can take a look at the 2 summary dashboards below. 
+
 <img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/Tableau%20damage%20claims.png" alt="alt text" width="1226" height="652">
+This first dashboard is showing the claims with regard to their value.
