@@ -124,3 +124,5 @@ One can easily note that 1 orderline (80202555) contributes for a huge percentag
 #### a. ii. Claims value without 80202555
 
 <img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/Damage%20claims%20without%20orderline%20Tableau.png" alt="alt text" width="995" height="528">
+
+That's better. From here, we can clearly see that Skin Care represents the biggest value in terms of claims. The top 3 consignees are Shilla, Heinemann, and DFA Macau.
