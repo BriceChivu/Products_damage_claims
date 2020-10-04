@@ -116,7 +116,7 @@ This first dashboard is showing the claims with regard to their value.
 
 * The first graph of the top left corner is a Treemap graph showing the distribution of the claims value per product type (Skin care, Make up, etc.) and per brand (Lancome, Kiehls, etc.)
 * The second graph on the top right corner is giving information regarding the date of the claims.
-* On the bottom left corner, we have the claims in regards to their orderlines. 
+* On the bottom left corner, we have the claims in regards to their respective orderline. 
 * Lastly, the graph at the bottom right corner is displaying the claims value per consignee.
 
 One can easily note that 1 orderline (80202555) contributes for a huge percentage of the claims value (more than 60%). This orderline contains Lancome products and was shipped to the consignee Shilla on February 5th. It is clear that this orderline distorts the analysis. Let's try to exclude it from the graph.
