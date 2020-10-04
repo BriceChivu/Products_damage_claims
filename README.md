@@ -47,3 +47,22 @@ df_merch_type.drop_duplicates(subset = 'SKU family', keep = 'first', inplace = T
 df_merch_type['CODE_DESC'].unique()
 ```
 <img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/df_merch_type.png" alt="alt text" width="451" height="56.5">
+
+```ruby
+# Getting the dataframe of claims 'df_raw'
+
+df_raw = pd.read_excel(r'C:\Users\btg168\Downloads\Customer Complaint - 2020 UPDATED.xlsx')
+```
+```ruby
+# Cleaning 'df_raw'
+
+new_headers = df_raw.iloc[3]
+df_raw = df_raw.iloc[4:]
+df_raw.columns = new_headers
+df_raw.columns.name = None
+df_raw.dropna(thresh=5,inplace=True)
+df_raw['Complaint Date'] = pd.to_datetime(df_raw['Complaint Date'], format='%Y/%m/%d')
+df_raw.dropna(thresh=5, axis=1, inplace=True)
+df_raw.rename(columns={'Others\nDiscrepancies ':'category'},inplace=True)
+df_raw.replace('ySL','YSL',inplace=True)
+```
