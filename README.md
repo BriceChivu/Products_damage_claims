@@ -108,7 +108,7 @@ Now that we have cleaned the data, let's see what graphs we can plot. If you hav
 
 Otherwise, we can take a look at the 2 summary dashboards below. 
 
-#### a. Claims value
+#### a. i. Claims value
 
 <img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/Tableau%20damage%20claims.png" alt="alt text" width="1105" height="587">
 
@@ -121,6 +121,6 @@ This first dashboard is showing the claims with regard to their value.
 
 One can easily note that 1 orderline (80202555) contributes for a huge percentage of the claims value (more than 60%). This orderline contains Lancome products and was shipped to the consignee Shilla on February 5th. It is clear that this orderline distorts the analysis. Let's try to exclude it from the graph.
 
-#### a. bis. Claims value without 80202555
+#### a. ii. Claims value without 80202555
 
 <img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/Tableau%20damage%20claims%20without%20huge%20orderline.png" alt="alt text" width="1105" height="587">
