@@ -108,5 +108,11 @@ Now that we have cleaned the data, let's see what graphs we can plot. If you hav
 
 Otherwise, we can take a look at the 2 summary dashboards below. 
 
+#### a. Claims value
+
 <img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/Tableau%20damage%20claims.png" alt="alt text" width="1105" height="587">
+
 This first dashboard is showing the claims with regard to their value.
+The first graph of the top left corner is a Treemap graph showing the distribution of the claims value per product type (Skin care, Make up, etc.) and per brand (Lancome, Kiehls, etc.)
+
+The second 
