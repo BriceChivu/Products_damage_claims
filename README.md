@@ -119,4 +119,4 @@ This first dashboard is showing the claims with regard to their value.
 * On the bottom left corner, we have the claims in regards to their orderlines. 
 * Lastly, the graph at the bottom right corner is displaying the claims value per consignee.
 
-
+One can easily note that one oderline (80202555) contributes for a huge percentage of the claims value (more than 60%) 
