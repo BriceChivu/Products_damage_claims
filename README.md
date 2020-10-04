@@ -105,4 +105,4 @@ df = df.merge(df_sku_master[['SKU family','DESCRIPTION']].\
 ```
 Now that we have cleaned the data, let's see what graphs we can plot. If you have Tableau installed on your device, I suggest you download my Tableau file in my repository, you would be able to play around with the dashboard.
 
-<img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/Tableau%20damage%20claims.png" alt="alt text" width="1916" height="1019">
+<img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/Tableau%20damage%20claims.png" alt="alt text" width="1226" height="652">
