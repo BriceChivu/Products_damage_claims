@@ -126,8 +126,8 @@ One can easily note that 1 orderline (80202555) contributes for a huge percentag
 <img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/Damage%20claims%20without%20orderline%20Tableau.png" alt="alt text" width="995" height="528">
 
 Even with the orderline 80202555 removed, Skin Care is still the number 1 product type in terms of claims value. The top 3 consignees are Shilla, Heinemann, and DFA Macau.
-That's interesting but in reality what this dashboard tells us is that Shilla orders a lot of Skin Care products and that they are costly. <br/>
-We need to complete the full picture by adding the **number of claims** to the analysis.
+That's interesting but we are missing some elements here. Maybe Shilla is just ordering a lot of very expensive Skin Care products. <br/>
+To complete the full picture, we need to add the **number of claims** to the analysis.
 
 #### b. Number of claims
 
