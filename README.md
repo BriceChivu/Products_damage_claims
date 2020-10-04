@@ -103,3 +103,7 @@ df.drop_duplicates(subset = ['Complaint Date','Loreal CS','Shipment #','DO #','S
 df = df.merge(df_sku_master[['SKU family','DESCRIPTION']].\
               drop_duplicates(subset = ['SKU family'], keep = 'first'), on = 'SKU family', how = 'left')
 ```
+```ruby
+df.head()
+```
+<img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/df_raw['category'].unique().png" alt="alt text" width="455" height="34">
