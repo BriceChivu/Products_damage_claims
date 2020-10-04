@@ -115,4 +115,10 @@ Otherwise, we can take a look at the 2 summary dashboards below.
 This first dashboard is showing the claims with regard to their value.
 The first graph of the top left corner is a Treemap graph showing the distribution of the claims value per product type (Skin care, Make up, etc.) and per brand (Lancome, Kiehls, etc.)
 
-The second 
+The second graph on the top right corner is giving information regarding the date of the claims.
+
+On the bottom left corner, we have the claims in regards to their orderlines. 
+
+Lastly, the graph at the bottom right corner is displaying the claims value per consignee.
+
+
