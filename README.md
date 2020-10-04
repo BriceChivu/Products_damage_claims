@@ -71,6 +71,8 @@ df_raw.replace('ySL','YSL', inplace = True)
 
 df_raw.isna().sum()
 ```
+<img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/df_raw.isna().sum().png" alt="alt text" width="325" height="360">
+
 ```ruby
 # Checking the values of 'category'
 
