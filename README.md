@@ -110,7 +110,7 @@ Otherwise, we can take a look at the 2 summary dashboards below.
 
 #### a. i. Claims value
 
-<img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/Tableau%20damage%20claims.png" alt="alt text" width="1105" height="587">
+<img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/Tableau%20damage%20claims.png" alt="alt text" width="995" height="528">
 
 This first dashboard is showing the claims with regard to their value.
 
@@ -123,4 +123,4 @@ One can easily note that 1 orderline (80202555) contributes for a huge percentag
 
 #### a. ii. Claims value without 80202555
 
-<img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/Tableau%20damage%20claims%20without%20huge%20orderline.png" alt="alt text" width="1105" height="587">
+<img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/Tableau%20damage%20claims%20without%20huge%20orderline.png" alt="alt text" width="995" height="528">
