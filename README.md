@@ -127,7 +127,7 @@ One can easily note that 1 orderline (80202555) contributes for a huge percentag
 
 Even with the orderline 80202555 removed, Skin Care is still the number 1 product type in terms of claims value. The top 3 consignees are Shilla, Heinemann, and DFA Macau.
 That's interesting but we are missing some elements here. Maybe Shilla is just ordering a lot of very expensive Skin Care products. <br/>
-To complete the full picture, we need to add the **number of claims** to the analysis.
+To complete the full picture, we need to add the **number of claims** into the analysis.
 
 #### b. Number of claims
 
