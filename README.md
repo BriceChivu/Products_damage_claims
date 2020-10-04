@@ -108,5 +108,5 @@ Now that we have cleaned the data, let's see what graphs we can plot. If you hav
 
 Otherwise, we can take a look at the 2 summary dashboards below. 
 
-<img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/Tableau%20damage%20claims.png" alt="alt text" width="1226" height="652">
+<img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/Tableau%20damage%20claims.png" alt="alt text" width="1105" height="587">
 This first dashboard is showing the claims with regard to their value.
