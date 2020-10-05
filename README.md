@@ -145,8 +145,10 @@ Finally, the top consignees remain the same compared to the claims value graphs 
 
 After some investigations, I found out that the packaging materials of Skin Care and Make Up products are thinner and therefore less resistant to shocks and bumps. Besides, we discovered later that Shilla consignee is *very* inclined to claim any kind of damages (whether significant or not). On the contrary, other consignees sometimes overlook when the damages are not really important.
 
-### 6. Next steps
+### 6. Actions taken
 
 Thanks to the analysis, we have been able to react and take actions to reduce the claims. <br/>
 Firstly, we have raised awareness to our client about the less resistant packaging used for Skin Care and Make Up products. Their factory will increase its thickness. <br/>
-Secondly, we are now being a lot more cautious about whether we accept or refuse the claims. We are starting to challenge more Shilla on their claims.
+Secondly, we are now being a lot more cautious about whether we accept or refuse the claims and we are starting to challenge more Shilla on their side.
+
+Thanks a lot for reading!
