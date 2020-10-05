@@ -132,4 +132,4 @@ To complete the full picture, we need to add the **number of claims** into the a
 #### b. Number of claims
 
 Now let's take a look at the number of claims.
-<img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/Number%20of%20claims%20Tableau.png" width="995" height="528">
+<img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/Number%20of%20claims%20Tableau.png" width="995" height="480">
