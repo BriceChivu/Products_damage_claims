@@ -136,4 +136,17 @@ Now let's take a look at the number of claims.
 
 We can see that the Skin Care and Make Up are again the top 2 product types in terms of number of claims. However, the difference between them is lesser, which leads us to validate our earlier assumption of Skin Care product being expensive. 
 
-On the top right graph, one can note that the number of claims is fairly evenly distributed (at least compared to the claims value graph from earlier).
+At the top right graph, one can note that the number of claims is fairly evenly distributed (at least compared to the claims value graph from earlier). <br/>
+When looking at the number of claims per SKU (Stock-Keeping Unit, *a fancy word to say 'product ID'*), we can tell that the maximum of claims per SKU is only 11 (out of 270 claims), so not much insight here. 
+
+Finally, the top consignees remain the same compared to the claims value graphs shown earlier.
+
+### 5. Conclusion
+
+After some investigations, I found out that the packaging materials of Skin Care and Make Up products are thinner and therefore less resistant to shocks and bumps. Besides, we discovered later that Shilla consignee is *very* inclined to claim any kind of damages (whether significant or not). On the contrary, other consignees sometimes overlook when the damages are not really important.
+
+### 6. Next steps
+
+Thanks to the analysis, we have been able to react and take actions to hopefully reduce the claims. <br/>
+Firstly, we have raised awareness to our client about the less resistant packaging used for Skin Care and Make Up products. Their factory will increase its thickness. <br/>
+Secondly, we are now being a lot more cautious about whether we accept or refuse the claims. We are starting to challenge more Shilla on their claims.
