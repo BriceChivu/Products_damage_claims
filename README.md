@@ -132,7 +132,7 @@ To complete the full picture, we need to add the **number of claims** into the a
 #### b. Number of claims
 
 Now let's take a look at the number of claims.
-<img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/Number%20of%20claims%20Tableau.png" width="850" height="520">
+<img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/Number%20of%20claims%20Tableau.png" width="995" height="528">
 
 We can see that the Skin Care and Make Up are again the top 2 product types in terms of number of claims. However, the difference between them is lesser, which leads us to validate our earlier assumption of Skin Care product being expensive. 
 
