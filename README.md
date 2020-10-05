@@ -147,6 +147,6 @@ After some investigations, I found out that the packaging materials of Skin Care
 
 ### 6. Next steps
 
-Thanks to the analysis, we have been able to react and take actions to hopefully reduce the claims. <br/>
+Thanks to the analysis, we have been able to react and take actions to reduce the claims. <br/>
 Firstly, we have raised awareness to our client about the less resistant packaging used for Skin Care and Make Up products. Their factory will increase its thickness. <br/>
 Secondly, we are now being a lot more cautious about whether we accept or refuse the claims. We are starting to challenge more Shilla on their claims.
