@@ -105,9 +105,9 @@ df = df.merge(df_sku_master[['SKU family','DESCRIPTION']].\
               drop_duplicates(subset = ['SKU family'], keep = 'first'), on = 'SKU family', how = 'left')
 ```
 ### 4. Analysis
-Now that we have cleaned the data, let's see what graphs we can plot. If you have Tableau installed on your device, I suggest you download the Tableau file in my repository, you would be able to play around with the dashboards.
+Now that we have cleaned the data, let's see what graphs we can plot. If you have Tableau installed on your device, I suggest you download the Tableau file in my repository, so that you can play around with the dashboards.
 
-Otherwise, we can take a look at the 2 summary dashboards below. 
+Otherwise, we can take a look at the 2 summary dashboards below.
 
 #### a. i. Claims value
 
