@@ -10,6 +10,7 @@ Our goal here is double: we want to better understand claims linked to damaged p
 First, we will pull the data, clean it, and rearrange it. Afterwards, we will plot graphs using Tableau.
 
 ### 3. Data cleaning
+The Customer Service team is responsible of adding the news claims in an Excel file. We have access to 1 year of records.
 Let's first pull the data and clean it.
 ```ruby
 # Importing the usual stuff
