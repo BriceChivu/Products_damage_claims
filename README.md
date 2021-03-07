@@ -110,7 +110,7 @@ Otherwise, we can take a look at the 2 summary dashboards below.
 
 #### a. i. Claims value
 
-<img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/Damage%20claims%20Tableau.png" alt="alt text" width="995" height="528">
+<img src="https://github.com/BriceChivu/Products_damage_claims/blob/main/Pictures/Damage%20claims%20Tableau.png" alt="alt text" width="995" height="528">
 
 This first dashboard is showing the claims with regard to their value.
 
