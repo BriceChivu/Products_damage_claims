@@ -46,7 +46,7 @@ df_merch_type.drop_duplicates(subset = 'SKU family', keep = 'first', inplace = T
 
 df_merch_type['CODE_DESC'].unique()
 ```
-<img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/df_merch_type.png" alt="alt text" width="451" height="56.5">
+<img src="https://github.com/BriceChivu/Products_damage_claims/blob/main/Pictures/df_merch_type.png" alt="alt text" width="451" height="56.5">
 
 ```ruby
 # Getting the dataframe of claims 'df_raw'
@@ -71,14 +71,14 @@ df_raw.replace('ySL','YSL', inplace = True)
 
 df_raw.isna().sum()
 ```
-<img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/df_raw.isna().sum().png" alt="alt text" width="325" height="360">
+<img src="https://github.com/BriceChivu/Products_damage_claims/blob/main/Pictures/df_raw.isna().sum().png" alt="alt text" width="325" height="360">
 
 ```ruby
 # Checking the values of 'category'
 
 df_raw['category'].unique()
 ```
-<img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/df_raw['category'].unique().png" alt="alt text" width="455" height="34">
+<img src="https://github.com/BriceChivu/Products_damage_claims/blob/main/Pictures/df_raw%5B'category'%5D.unique().png" alt="alt text" width="455" height="34">
 
 ```ruby
 # Creating the final dataframe that we will be using for the analysis
@@ -123,7 +123,7 @@ One can easily note that 1 orderline (80202555) contributes for a huge percentag
 
 #### a. ii. Claims value without 80202555
 
-<img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/Damage%20claims%20without%20orderline%20Tableau.png" alt="alt text" width="995" height="528">
+<img src="https://github.com/BriceChivu/Products_damage_claims/blob/main/Pictures/Damage%20claims%20without%20orderline%20Tableau.png" alt="alt text" width="995" height="528">
 
 Even with the orderline 80202555 removed, Skin Care is still the number 1 product type in terms of claims value. The top 3 consignees are Shilla, Heinemann, and DFA Macau.
 That's interesting but we are missing some elements here. Maybe Shilla is just ordering a lot of very expensive Skin Care products... <br/>
@@ -132,7 +132,7 @@ To complete the full picture, we need to add the **number of claims** into the a
 #### b. Number of claims
 
 Now let's take a look at the number of claims.
-<img src="https://github.com/BriceChivu/Products_damaged_claims/blob/main/Number%20of%20claims%20Tableau.png" width="995" height="528">
+<img src="https://github.com/BriceChivu/Products_damage_claims/blob/main/Pictures/Number%20of%20claims%20Tableau.png" width="995" height="528">
 
 We can see that the Skin Care and Make Up are again the top 2 product types in terms of number of claims. However, the difference between them is lesser, which leads us to validate our earlier assumption of Skin Care product being expensive. 
 
