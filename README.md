@@ -1,12 +1,13 @@
-# Damage claims analysis
+# Exploratory Data Analysis on damaged products claims
 
 ### 1. Introduction
-With millions of units shipped every year, handling issues leading to product damages are inevitable. But can we get insights from past claims to better understand the root causes of those issues? What consignees are claiming the most? What kind of products are mostly affected? Can we improve our packaging method? <br/>
+With millions of units shipped every year, handling issues leading to product damages are inevitable. Can we get insights from past claims to better understand the root causes of those issues? <br/> 
+What consignees are claiming the most? What kind of products are mostly affected? Should we improve our packaging method? <br/>
 Let's try to use our past data to shine some light on this matter!
 
 ### 2. Problem statement
 Our goal here is double: we want to better understand claims linked to damaged products, and we want at last to take actions to reduce those claims. <br/>
-First, we will pull the data, clean it, and rearrange it. Afterwards, we will look to plot some graphs using Tableau.
+First, we will pull the data, clean it, and rearrange it. Afterwards, we will plot graphs using Tableau.
 
 ### 3. Data cleaning
 Let's first pull the data and clean it.
@@ -119,14 +120,13 @@ This first dashboard is showing the claims with regard to their value.
 * On the bottom left corner, we have the claims in regards to their respective orderline. 
 * Lastly, the graph at the bottom right corner is displaying the claims value per consignee.
 
-One can easily note that 1 orderline (80202555) contributes for a huge percentage of the claims value (more than 60%). This orderline contains Lancome products and was shipped to the consignee Shilla on February 5th. It is clear that this orderline distorts the analysis. Let's try to exclude it from the graph.
+One can easily note that 1 orderline (80202555) contributes for a huge percentage of the claims value (more than 60%). This orderline contains Lancome products and was shipped to the consignee Shilla on February 5th. It is clear that this orderline distorts the analysis (outlier). Let's try to exclude it from the graph.
 
 #### a. ii. Claims value without 80202555
 
 <img src="https://github.com/BriceChivu/Products_damage_claims/blob/main/Pictures/Damage%20claims%20without%20orderline%20Tableau.png" alt="alt text" width="995" height="528">
 
 Even with the orderline 80202555 removed, Skin Care is still the number 1 product type in terms of claims value. The top 3 consignees are Shilla, Heinemann, and DFA Macau.
-That's interesting but we are missing some elements here. Maybe Shilla is just ordering a lot of very expensive Skin Care products... <br/>
 To complete the full picture, we need to add the **number of claims** into the analysis.
 
 #### b. Number of claims
@@ -134,7 +134,7 @@ To complete the full picture, we need to add the **number of claims** into the a
 Now let's take a look at the number of claims.
 <img src="https://github.com/BriceChivu/Products_damage_claims/blob/main/Pictures/Number%20of%20claims%20Tableau.png" width="995" height="528">
 
-We can see that the Skin Care and Make Up are again the top 2 product types in terms of number of claims. However, the difference between them is lesser, which leads us to validate our earlier assumption of Skin Care product being expensive. 
+We can see that Skin Care and Make Up are again the top 2 product types in terms of number of claims.
 
 At the top right graph, one can note that the number of claims is fairly evenly distributed (at least compared to the claims value graph from earlier). <br/>
 When looking at the number of claims per SKU (Stock-Keeping Unit, *a fancy word to say 'product ID'*), we can tell that the maximum of claims per SKU is only 11 (out of 270 claims), so not much insight here. 
@@ -143,12 +143,15 @@ Finally, the top consignees remain the same compared to the claims value graphs 
 
 ### 5. Conclusion
 
-After some investigations, I found out that the packaging materials of Skin Care and Make Up products are thinner and therefore less resistant to shocks and bumps. Besides, we discovered later that Shilla consignee is *very* inclined to claim any kind of damages (whether significant or not). On the contrary, other consignees sometimes overlook when the damages are not really important.
+After some investigations, the team found out that the packaging materials (carton boxes) of Skin Care and Make Up products are thinner and therefore less resistant to shocks and bumps. Besides, we discovered later that Shilla consignee is *very* inclined to claim any kind of damages (whether significant or not). On the contrary, other consignees sometimes overlook light damages.
 
 ### 6. Actions taken
 
-Thanks to the analysis, we have been able to react and take actions to reduce the claims. <br/>
-Firstly, we have raised awareness to our client about the less resistant packaging used for Skin Care and Make Up products. Their factory will increase its thickness. <br/>
-Secondly, we are now being a lot more cautious about whether we accept or refuse the claims and we are starting to challenge more Shilla on their side.
+Thanks to the analysis, we have been able to react and take actions to reduce claims. <br/>
+Firstly, we have raised awareness to our client about the less resistant packaging used for Skin Care and Make Up products. As a result, their factories will increase its thickness. <br/>
+Secondly, we are now being a lot more cautious about whether we accept or refuse claims and we are starting to challenge Shilla and ask for proofs.
 
-Thanks a lot for reading!
+
+
+
+Thanks for reading!
